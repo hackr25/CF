@@ -1,0 +1,31 @@
+Practical no.6
+Aim: Using Sysinternals tools for Network Tracking and Process Monitoring:  
+-	Check Sysinternals tools  
+-	Monitor Live Processes  
+-	Capture RAM  
+-	Capture TCP/UDP packets  
+-	Monitor Hard Disk  
+-	Monitor Virtual Memory  
+-	Monitor Cache Memory 
+
+1.Monitor Live Process (TOOL : PROCMON)
+Step 1 : Click on filter > filter > write firefox.exe(is chya bajuchya box mdhe)
+
+Step 2 : Click on ok.
+
+Step 3 : Open the tools > process tree 
+
+2.Capture TCP/UDP Packets(TOOL : Tcpview)
+Step 1 : Open the Tcpview
+
+Step 2 : Right Click on any file and select whois.
+
+3.Monitor Hard Disk(TOOl : RAMMap)
+Step 1 : Open RAMMap tool (only open karneka aur kuch nhi)
+
+4.Monitor Virtual Memory(TOOL : VMMap)
+Step 1 : Open VMMap tool (only open karneka aur kuch nhi)
+
+
+5.Monitor Cache Memory(TOOl : Cacheset)
+Step 1 : Open Cacheset tool (only open karneka aur kuch nhi)
