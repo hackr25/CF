@@ -1,0 +1,38 @@
+Practical No.1
+Aim : Forensic Image using FTK Imager/Encase.
+//FTK Imager is a forensic imaging tool used to create bit-for-bit copies of digital media, which is essential for forensic investigations.
+Raw (dd): A bit-for-bit copy of the drive.
+E01 (EnCase): A compressed image format that includes metadata.
+S01 (Smart): Another format that includes metadata.
+
+Step 1:Open FTK imager.   
+
+Step 2:In Files Select > Create Disk Image.
+ 
+Step 3:Select the Physical Drive Option and Click on Next.  
+
+Step 4:Select your device(pendrive, or SD card) from the dropdown and Click on Finish. 
+
+Step5 :Tick the check boxes and Click on Add. 
+ 
+Step 6:Select Image type as Raw(dd). Click on Next   
+
+Step 7:Enter the Evidence Information as follows 
+Case Number:1
+Evidence Number:0
+Unique Description: Prac 1 CF
+Examiner: MCC
+Notes: Prac 1 CF
+
+Step 8: in the image destination folder field, type the location path where you want to save the image file or click browse.
+
+Step 9 : After adding the image destination path click on finish and start the image processing.
+
+ANALYSE FORENSIC IMAGE:
+Step 10 : The images successfully created.
+
+step 11 : Now click on File > Add Evidence item > select source evidence type(image file)
+
+Step 12 : Open created evidence image file  in source path.(browse karo path image ka)
+
+step 13 : Noe select Evidence Tree(file ke niche ka 2 symbol hai evidence tree ka) and analyse the image file.
