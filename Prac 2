@@ -1,0 +1,28 @@
+Practical No.2
+Aim: Data Acquisition
+ Perform data acquisition using:
+ USB Write Blocker+ FTK Imager
+//Data acquisition in digital forensics refers to the process of collecting data from digital devices for analysis
+types :Physical Data: This is a complete copy of everything on a storage device, including all files, deleted files, and hidden data.
+Logical Data: This only includes the active files and folders that you can see and access on a device. 
+Live Data: This is the information that is currently being used on a running computer, such as data in RAM, active programs, and network connections.
+
+(click on keyboard> windows + r, write> regedit) then registry open.
+
+Step1:Open Registry
+
+Step2: This will open Registry editor navigate to the key.
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control
+
+Step3: Right click on HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control > right click on Control > new > key > ok.
+
+Step4: Name it as StorageDevicePolicies(left side la folder aahe)
+
+Step5:Right click on the StorgeDevicePolicies add New>Key>DWORD(32-bit)
+
+Step6: Named it as WriteBlocker & Modify the value of from 0 to 1
+
+Step7: Now the error message will show when you try to copy or move document to USB
+       (remove PD and then again insert and change the value that mentioned in step 8)
+Step 8: To revert the changes Modify the value of from 1 to 0
+         Now you can copy, paste and shared files.
