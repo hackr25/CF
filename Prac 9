@@ -1,0 +1,25 @@
+Practical no.9
+Aim : Email Forensics 
+
+Step 1 :Open Forensic Toolkit(ftk181.exe) and click on “Start a new case”
+
+Step 2 : Fill the form new case >  next.
+
+Step 3 : fill forensic examiner information >  next.
+
+Step 4 : Select HTML file listing, Data Carve, Registry Reports > next.
+
+Step 7:  click on Add evidence > Individual file > continue.
+         Continue karne ke baad add file file karneka joh (cf_software > ftk181 > Jim_shu's.pst [add this file])
+
+Step 8 : Fill the evidence form > next > finish.
+          Let the process complete.
+
+Step 9 : select “From E-mail”
+
+Step 10 : Select any message and Export it as a file
+Make sure to check “Export HTML view if available” and Click on OK. 
+
+Step 11 : Deleted Message is recovered at the specified location
+
+Step 12 : Click on .html file, it will get open in the Browser showing the content of the email. 
