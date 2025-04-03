@@ -1,0 +1,31 @@
+Practical no.7 
+Aim : Recovering and inspecting deleted files.
+ Check for Deleted Files
+ Recover the Deleted Files
+ Analysing and Inspecting the recovered file0073
+
+
+CREATING DISK IMAGE FILE:
+that we do in practical 1.
+
+RECOVERING THE DELETED FILES:
+Step 1 :Open Forensic Toolkit(ftk181.exe) and click on “Start a new case”
+
+Step 2 : Fill the form new case >  next.
+
+Step 3 : fill forensic examiner information >  next.
+
+Step 4 : Select HTML file listing, Data Carve, Registry Reports > next.
+
+Step 7:  click on Add evidence > select Acquired Image of Drive > click on continue.
+
+Step 8 : Fill the evidence form > next > finish.
+          Let the process complete.
+
+Step 9: select "deleted files"
+
+Step 10: Extract deleted files.
+        Click on File Which you want to recover -> Right Click on that file > Select Export File.
+        Select Destination path-> Click on ok
+
+Step 11: Deleted files are recovered at the specified location.
