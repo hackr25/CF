@@ -1,0 +1,30 @@
+Practical No.3
+Aim: Forensic Case Study:- Solve the case study (image file) provide in lab using autopsy.
+//Autopsy is a free digital forensics tool used to analyze and recover data from storage devices. Its features include recovering deleted files.
+
+Step 1: Open Autopsy App after installing & Click on ‘New Case’.
+
+Step 2: After that case information: case name: recover files .Base Directory:(kismain save hona chhaiye woh select karo)
+
+Step 3: After that fill the case details. (Case Number, name, phone, email, notes)
+
+Step 4 & 5: After that select type of data source>disk image or VM file > next.
+            Browse image(murder.001) > next.
+            Configure Ingest Modules > Make sure all check boxes are selected by clicking on "Select All" > next.
+
+Step 6: Configure Ingest Modules > Make sure all check boxes are selected by clicking on "Select All" > next.
+        then click on ‘Finish’.
+
+Step 7: Click on ‘Views->Deleted Files’ to see Deleted Files.
+        If u want to extract any file then right click on desired file and select ‘Extract File’.
+
+Step 8: Save that File in Export Folder which will be in directory where data of case is stored by clicking ‘Save’.
+         
+Step 9: To generate report, Go to  Tools > Generate Report.
+
+Step 10 : Select type of report as ‘Excel Report’ and then click on Next > Finish. 
+
+Step 11 : After completing click on ‘Close’ then that report will be stored in ‘Report’ folder.
+
+Step 12: To see report, click on that generated report and see it.
+
