@@ -1,0 +1,42 @@
+PRACTICAL 5
+AIM: Analyse the packets provided in lab and solve the questions using Wireshark:
+What web server software is used by www.snopes.com? 
+About what cell phone problem is the client concerned? 		 		
+According to Zillow, what instrument will Ryan learn to play? 			
+How many web servers are running Apache? 		
+What hosts (IP addresses) think that jokes are more entertaining when they are explained?
+
+wireshark must be installed!!!
+
+Step 1 : open CF_Software folder -> wireshark -> AskSnopes and double click on it
+
+Step 2 : right click on Hypertext Transfer Protocol and click on Apply as column
+
+Step 3 : right click on 1st tick mark (green row) -> follow -> TCP stream
+
+Step 4 : write the cmd in apply as display filter
+
+2. About what cell phone problem is the client concerned?
+Code: frame matches “(?)cell”
+
+3. According to Zillow, what instrument will Ryan learn to play?
+Code: frame matched “(?) zillow”
+
+Step 5 : Right click on “Transmission control protocol” -> Protocol Preferences -> Allow subdissector to reassemble TCP stream.
+
+Step 6 : Click on File -> Export objects -> HTTP and click on Save All
+
+Step 7 : Open that saved all folder and search for .swf files and open it
+
+4. How many web servers are running Apache?
+Code: http.response
+
+Step 8 : Right click on “Hypertext Transfer Protocol” and click on Apply as column.
+
+Code: http.server contains “Apache”
+
+Step 9 : Click on Statistics in the menu and select Endpoints.
+
+5. What hosts (IP addresses) think that jokes are more entertaining when they are explained?
+Code: frame matches “(?)jokes”
+
