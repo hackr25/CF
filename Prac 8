@@ -1,0 +1,31 @@
+Practical no.8
+Aim: Mobile Forensic
+
+Step 1 : Download required files.
+(a) MOBILedit! Forensic Software (Desktop/Laptop)
+(b) Forensic Tool apk (Android)
+
+Step 2 : Connect your Device by clicking on “Connection Wizard”.
+
+Step 3 : Enable Developer Mode in your Phone and After Developer Mode Enabled -> Enable USB Debugging (developer options).
+
+Step 4 : Make sure USB Debugging is enabled and you choose to connect with your desktop when confirmation prompts at your phone screen (Tick if required)
+- Click on USB Tethering (when connected with PC/Laptop).
+
+Step 5 : After successful connection select the option for what we have to extract -> Specific selection.
+
+Step 6 : Click on next and select what we have to configure in the report like summary, screenshots, messages, contacts or email etc.
+
+Step 7 : After selection click on next.
+
+Step 8 : Fill the report details and click on next:
+
+Step 9 : Choose the output format such as HTML report or pdf report and click on next. 
+
+Step 10 : Configure the report destination path and click on Export.
+
+Step 11 : Message will pop up and asking for ready to start backup then click on Ok and in Android device also Allow to backup data.
+
+step 12 : Now the extract will start and complete within few minutes.
+
+Step 13 : Reports will be generated at the specified destination path.
